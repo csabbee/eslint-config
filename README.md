@@ -23,7 +23,7 @@ import baseConfig from 'csabbee-eslint-config'
 export default [
   ...baseConfig,
   {
-    '@stylistic/quotes': ['error', 'single'],
+    '@stylistic/quotes': ['error', 'double'],
   },
 ]
 ```
