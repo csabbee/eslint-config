@@ -2,7 +2,7 @@
   "name": "eslint-config",
   "version": "1.0.0",
   "description": "The eslint style config the way I like it",
-  "main": "index.js",
+  "main": "eslint.config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,5 +11,10 @@
     "config"
   ],
   "author": "Csaba Valyi",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^9.1.0",
+    "@stylistic/eslint-plugin": "^1.7.2",
+    "@typescript-eslint/parser": "^7.7.0"
+  }
 }
