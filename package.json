@@ -1,5 +1,5 @@
 {
-  "name": "@csabbee/eslint-config",
+  "name": "csabbee-eslint-config",
   "version": "1.0.0",
   "description": "The eslint style config the way I like it",
   "main": "eslint.config.js",
