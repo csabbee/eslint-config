@@ -9,7 +9,7 @@ That's when they introduced the flat config structure, so using the config would
 
 eslint.config.js file:
 ```javascript
-import baseConfig from 'csabbee-eslint-config'
+import baseConfig from 'csabbee-eslint-config/eslint-config.js'
 
 export default [
   ...baseConfig
@@ -18,7 +18,7 @@ export default [
 
 Following the new eslint way, you could override any of the rules the, e.g.:
 ```javascript
-import baseConfig from 'csabbee-eslint-config'
+import baseConfig from 'csabbee-eslint-config/eslint-config.js'
 
 export default [
   ...baseConfig,
