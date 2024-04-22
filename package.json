@@ -1,5 +1,6 @@
 {
   "name": "csabbee-eslint-config",
+  "type": "module",
   "version": "1.0.0",
   "description": "The eslint style config the way I like it",
   "main": "eslint.config.js",
