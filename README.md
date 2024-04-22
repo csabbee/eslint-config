@@ -7,7 +7,7 @@ Not much to it really, for the ease of use, you would need at least I believe `e
 
 That's when they introduced the flat config structure, so using the config would be this:
 
-eslint.config.js file:
+eslint.config.js:
 ```javascript
 import baseConfig from 'csabbee-eslint-config/eslint-config.js'
 
@@ -16,7 +16,7 @@ export default [
 ]
 ```
 
-Following the new eslint way, you could override any of the rules the, e.g.:
+Following the new eslint way, you could override any of the rules e.g.:
 ```javascript
 import baseConfig from 'csabbee-eslint-config/eslint-config.js'
 
